@@ -42,3 +42,10 @@ body {
 .product_card h3 {
   font-family: "Satoshi", sans-serif;
 }
+
+.promo_1,
+.promo_2,
+.promo_3,
+.promo_4 {
+  background-image: url(./style.png);
+}

@@ -226,6 +226,9 @@
   .mr-2 {
     margin-right: calc(var(--spacing) * 2);
   }
+  .mr-3 {
+    margin-right: calc(var(--spacing) * 3);
+  }
   .mr-4 {
     margin-right: calc(var(--spacing) * 4);
   }
@@ -258,9 +261,6 @@
   }
   .flex {
     display: flex;
-  }
-  .table {
-    display: table;
   }
   .h-86 {
     height: calc(var(--spacing) * 86);
@@ -303,12 +303,6 @@
   }
   .flex-1 {
     flex: 1;
-  }
-  .border-collapse {
-    border-collapse: collapse;
-  }
-  .resize {
-    resize: both;
   }
   .flex-wrap {
     flex-wrap: wrap;
@@ -417,6 +411,9 @@
   .text-center {
     text-align: center;
   }
+  .text-start {
+    text-align: start;
+  }
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
@@ -438,9 +435,6 @@
   }
   .text-\[40px\] {
     font-size: 40px;
-  }
-  .text-\[48px\] {
-    font-size: 48px;
   }
   .text-\[64px\] {
     font-size: 64px;
@@ -480,13 +474,6 @@
   .uppercase {
     text-transform: uppercase;
   }
-  .underline {
-    text-decoration-line: underline;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
-  }
   .placeholder\:text-gray-300 {
     &::placeholder {
       color: var(--color-gray-300);
@@ -524,6 +511,11 @@ input[type="text"], input[type="email"], input[type="password"] {
     outline-style: none;
   }
 }
+.section_title {
+  margin-bottom: calc(var(--spacing) * 8);
+  font-size: 48px;
+  text-transform: capitalize;
+}
 @property --tw-border-style {
   syntax: "*";
   inherits: false;
@@ -540,9 +532,4 @@ input[type="text"], input[type="email"], input[type="password"] {
 @property --tw-tracking {
   syntax: "*";
   inherits: false;
-}
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
 }
