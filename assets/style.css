@@ -49,3 +49,26 @@ body {
 .promo_4 {
   background-image: url(./style.png);
 }
+
+.testimonial_carousal > svg {
+  position: absolute;
+  right: 40px;
+  top: -70px;
+}
+
+.testimonial_carousal > svg:last-child {
+  right: 0;
+}
+
+.testimonial_carousal .slick-list {
+  margin-left: -10px;
+  margin-right: 10px;
+}
+
+.testimonial_carousal .slick-list.draggable {
+  overflow: inherit;
+}
+
+.testimonial_carousal .slick-slide:not(.slick-active) {
+  filter: blur(1px);
+}
