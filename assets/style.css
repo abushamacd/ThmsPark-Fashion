@@ -70,5 +70,5 @@ body {
 }
 
 .testimonial_carousal .slick-slide:not(.slick-active) {
-  filter: blur(1px);
+  filter: blur(2px);
 }
